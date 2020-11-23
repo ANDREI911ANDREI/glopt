@@ -1,0 +1,49 @@
+.advantages_class{
+	width: 100%;
+	min-height: 590px;
+	background-color: #f3f3f3;
+	.container{
+		.title__advantages{
+			padding-top: 58px;
+			letter-spacing: 2px;
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			font-size: 26px;
+			line-height: 23px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #2e2e2e;
+		}
+	.descr{
+		display: flex;
+		flex-wrap: wrap;
+		.advantages_descr{
+			margin-top: 31px;
+			width: 50%;
+			&__img{
+				img{
+					width: 62px;
+					height: 65px;
+				}
+			}
+			&__descr{
+			
+				margin-left: 17px;
+				.title{
+					font-family: 'Roboto', sans-serif;
+					font-size: 16px;
+					line-height: 22px;
+					font-weight: 700;
+					color: #ec644b;
+				}
+				.description{
+					max-width: 400px;
+					font-size: 14px;
+					font-weight: 300;
+					color: #3a3a3a;
+				}
+			}
+		}	
+	}
+	}
+}
