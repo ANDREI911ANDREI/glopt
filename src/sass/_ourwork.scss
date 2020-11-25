@@ -1,0 +1,66 @@
+.ourwork{
+	width: 100%;
+	min-height: 590px;
+	.container{
+		.ourwork__title{
+			padding-top: 51px;
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			font-size: 26px;
+			line-height: 23px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #2e2e2e;
+		}
+		hr{
+			margin-top: 20px;
+			width: 148px;
+			height: 1px;
+			background: #ec644b;
+			border: none;
+		}
+		.ourwork__subtitle{
+			margin-top: 20px;
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			font-size: 21px;
+			line-height: 24px;
+			font-weight: 300;
+			color: #2e2e2e;
+		}
+	.row{
+		.ourwork__work{
+			margin-top: 37px;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			padding-bottom: 57px;
+
+			.workit{
+				width: 30%;
+				&_img{
+					img{
+
+					}
+				}
+				&_title{
+					margin-top: 28px;
+					text-align: center;
+					font-family: 'Roboto', sans-serif;
+					font-size: 18px;
+					line-height: 22px;
+					font-weight: 700;
+					color: #ec644b;
+				}
+				&_descr{
+					margin-top: 15px;
+					text-align: center;
+					font-size: 14px;
+					font-weight: 300;
+					color: #3a3a3a;
+				}
+			}
+		}
+	}
+  }
+}

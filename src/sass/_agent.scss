@@ -1,0 +1,41 @@
+.agent{
+    width: 100%;
+    min-height: 340px ;
+    background: url(../img/bg/2.jpg.png) center ( center / cover) no-repeat;
+    &__img{
+        padding-top: 58px;
+       .img_icon{
+            width: 102px;
+            height: 102px;
+            border: 1px solid #ffffff;
+            border-radius:180px;
+            display: block;
+            margin: 0 auto;
+                img{
+                    text-align: center;
+                    padding-top: 21px;
+                    display: block;
+                    margin: 0 auto;
+                }
+       }
+    }        
+    
+    &__title{
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+    }   
+    &__subtitle{
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 22px;
+        text-align: center;
+    }
+}
