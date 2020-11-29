@@ -19,23 +19,25 @@
                 }
        }
     }        
-    
-    &__title{
-        margin-top: 20px;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-size: 26px;
-        line-height: 23px;
-        font-weight: 700;
-        color: #ffffff;
-    }   
-    &__subtitle{
-        font-size: 19px;
-        line-height: 27px;
-        font-weight: 300;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-        margin-top: 22px;
-        text-align: center;
+    .container{
+        .agent__title{
+            margin-top: 20px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 26px;
+            line-height: 23px;
+            font-weight: 700;
+            color: #ffffff;
+        }   
+        .agent__subtitle{
+            font-size: 19px;
+            line-height: 27px;
+            font-weight: 300;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 22px;
+            text-align: center;
+        }
     }
+   
 }
