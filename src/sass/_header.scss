@@ -80,6 +80,9 @@
 			&:hover{
 				background-color: #c2280c;
 			}
+			&:focus{
+				outline: none;
+			}
 		}
 	}
 	.head_logo{
@@ -164,6 +167,9 @@
 			cursor: pointer;
 			&:hover{
 				background-color: #c2280c;
+			}
+			&:focus{
+				outline: none;
 			}
 
 		}

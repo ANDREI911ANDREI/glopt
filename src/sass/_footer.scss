@@ -1,5 +1,111 @@
 .footer{
     width: 100%;
-    height: 201px;
+    min-height: 201px;
+    padding-bottom: 39px;
     background-color: #25333c;
+    .container{
+        .row{
+            display: block;
+            margin: 0 auto;
+            padding-top: 24px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            .icon{
+
+            }
+            .subtitle{
+                margin-left: 33px;
+                font-size: 13px;
+                line-height: 17px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+            .number{
+                margin-left: 350px;
+                &__descr{
+                    text-align: right;
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-weight: 300;
+                    color: #ffffff;
+                }
+                a{
+                    font-size: 19px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    color: #ffffff;
+                    &:hover{
+                        color: rgb(216, 78, 24);
+                        text-decoration: none;
+                    }
+                }
+            }
+            .button{
+                button{
+                    margin-left: 12px;
+                    width: 160px;
+                    height: 45px;
+                    background-color: #ec644b;
+                    font-size: 12px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    border: none;
+                    border-radius:20px;
+                    &:hover{
+                        background-color: #df3315;
+                        outline: none;   
+                    }
+                    &:focus{
+                        outline: none;
+                    }
+                }
+            }
+        }
+        hr{
+            margin-top: 24px;
+            width: 100%;
+            height: 1px;
+            opacity: 0.3;
+            border-top: none;
+        }
+        .row{
+            padding-top: 30px;
+            align-items: center;
+           
+            .inc{
+                opacity: 0.6;
+                font-size: 13px;
+                line-height: 17px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+            .privaty{
+                margin-left: 223px;
+                a{
+                    font-size: 13px;
+                    line-height: 17px;
+                    font-weight: 300;
+                    text-decoration: underline;
+                    color: #ec644b;
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+            }
+            .createsite{
+                margin-left: 426px;  
+                opacity: 0.6;
+                font-size: 13px;
+                line-height: 17px;
+                font-weight: 300;
+                color: #ffffff;  
+            }
+            .iconcreate{
+                margin-left: 10px;
+            }
+        }
+    
+    }
 }
